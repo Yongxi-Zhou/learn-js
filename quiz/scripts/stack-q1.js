@@ -2,7 +2,7 @@ class PStack {
   #id;
   constructor() {
     this.#id = 1;
-    this._persons = [];
+    this.c = [];
   }
 
   showId() {
